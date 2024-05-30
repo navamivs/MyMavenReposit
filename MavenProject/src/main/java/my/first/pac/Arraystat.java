@@ -45,9 +45,9 @@ public class Arraystat {
 	System.out.println("limit is" +Exm1.l);
 	
 	System.out.println("Enter  values for an array");
-	//int d=Exm1.l;
+	int d=Exm1.l;
 	
-	for(int i=0;i<Exm1.l;i++)
+	for(int i=0;i<d;i++)
 	{
 		Exm1.s[i]=obj.nextInt();
 	System.out.print("  "+Exm1.s[i]);
